@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    client:
+        image: nginx:latest
+        ports:
+            - 8001:80
+        restart: always
+        volumes:
+            - ./site-content:/usr/share/nginx/html
