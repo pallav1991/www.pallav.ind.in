@@ -1,7 +1,9 @@
 /* Timeline custom component */
 .timeline-card {
   position: relative;
-  margin-left: 16px; }
+  margin-left: 16px;
+  border-left: 2px solid #E6E9ED; 
+}
 
 .timeline-card:before {
   content: '';
@@ -12,7 +14,7 @@
   width: 24px;
   height: 24px;
   top: 16px;
-  left: -12px;
+  left: -13px;
   border: 5px solid;
   z-index: 2; }
 
@@ -21,7 +23,7 @@
 }
 
 .timeline-body {
-  border-left: 2px solid #E6E9ED; }
+  border-left: 2px transparent; }
 
 .timeline-card-primary:before {
   border-color: var(--bs-primary); }
